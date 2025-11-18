@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>smoke test</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+
+
+<div class="card shadow-sm mt-4">
+    <div class="card-header bg-primary text-white">
+        Oefening 1 - Fitness Tracker (Functions, Arrays, DOM) - ZONDER AI
+    </div>
+    <div class="card-body">
+        <p class="small text-muted">
+            Voeg oefeningen toe met naam en aantal minuten. Het totaal wordt
+            automatisch
+            berekend door jouw JavaScript code.
+        </p>
+        <div class="row g-2 mb-3">
+            <div class="col-md-6">
+                <input id="ex1_ex" class="form-control" placeholder="Oefening (bv.
+Joggen)">
+            </div>
+            <div class="col-md-3">
+                <input id="ex1_min" type="number" class="form-control"
+                       placeholder="Minuten">
+            </div>
+            <div class="col-md-3">
+                <button id="ex1_btn" class="btn btn-primary w-100">Voeg toe</button>
+            </div>
+        </div>
+        <div class="alert alert-info mb-3">
+            Totaal minuten: <strong id="ex1_total">0</strong>
+        </div>
+        <ul id="ex1_list" class="list-group mb-3"></ul>
+        <div id="ex1_feedback" class="alert alert-secondary">
+            Nog geen oefeningen toegevoegd.
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
